@@ -1,0 +1,49 @@
+main{
+    background-color: #7f5848;
+    color: white;
+    width: 25em;
+    height: 25em;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+}
+button{
+    background-color: green;
+    color: white;
+    height: 2.5em;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+div{
+    background-color: #eddfd3;
+    color: #7f5848;
+    height: 20em;
+}
+input{
+    outline: none;
+    height: 2em;
+    border-radius: 6px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20em;
+    width: 20em;
+    border-radius: 20px;
+}
+span{
+    font-size: 20px;
+}
+body{
+    background-color: #e9cfbd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
